@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+.box {
+    background-color: #252525;
+    padding: 2rem;
+    border-radius: 5px;
+    color: #fff;
+}
+.box h1 {
+    padding: 1rem 0;
+}
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.input-box span {
+    font-size: 32px;
+    background-color: #fff;
+    color: #252525;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.input-box input {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
